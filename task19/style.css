@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  margin: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
+.section_1,
+.section_2,
+.section_3 {
+  width: 33%;
+}
+
+.list1__cat,
+.list1__dog,
+.list1__fish {
+  width: 200px;
+  font-size: 30px;
+  border: 2px solid rgb(116, 113, 113);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.list2__cat,
+.list2__dog,
+.list2__fish {
+  position: absolute;
+  font-size: 20px;
+  width: 200px;
+  border: 2px solid rgb(116, 113, 113);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  display: none;
+}
+
+.cat_info,
+.dog_info,
+.fish_info {
+  position: absolute;
+}
+.hide {
+  display: none;
+}
